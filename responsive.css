@@ -1,0 +1,181 @@
+@media screen and (max-width : 1200px){
+    header nav{
+        padding: 0 100px;
+    }
+    #delight .text{
+        height: auto;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width : 992px){
+    header nav{
+        padding: 0 70px;
+    }
+    header nav .firstList li{
+        margin-left: 25px;
+    }
+    header .header-texts h1{
+        font-size: 35px;
+    }
+    #our-story{
+        height: 450px;
+        flex-direction: column;
+    }
+    #our-story .section-text{
+        max-width: 500px;
+        margin-bottom: 20px;
+        padding-top: 0;
+        padding: 0 20px;
+    }
+    #our-story .section-text h2{
+        margin-top: 10px;
+    }
+    #our-story img{
+        width: 300px;
+        height: 200px;
+    }
+    #menu{
+        flex-direction: column;
+    }
+    #menu .text{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    #menu .text p{
+        margin-bottom: 20px;
+    }
+    #menu .text h1{
+        margin-top: 0;
+    }
+    #menu .coffes{
+        width: 100%;
+        height: 180px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    #hot .text h1{
+        font-size: 35px;
+    }
+    #hot .text p{
+        font-size: 20px;
+    }
+    #delight{
+        flex-direction: column;
+        height: 500px;
+    }
+    #delight .text{
+        width: 80%;
+        margin: 0;
+    }
+    #delight .text p{
+        margin-bottom: 40px;
+    }
+    #delight .imgBox img{
+        width: 220px;
+    }
+}
+@media screen and (max-width : 768px){
+    header nav{
+        padding: 0 40px;
+    }
+    header nav .firstList{
+        display: none;
+    }
+    header nav button{
+        display: inline-block;
+    }
+    header .header-texts h1{
+        font-size: 30px;
+    }
+    header .header-texts p{
+        font-size: 18px;
+    }
+    #sweet .text h1{
+        font-size: 28px;
+    }
+    #menu{
+        height: 600px;
+        justify-content: flex-start;
+    }
+    #menu .text h1{
+        font-size: 24px;
+    }
+    #menu .coffes{
+        width: 80%;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows:  170px 170px;
+    }
+    #hot .text h1{
+        font-size: 30px;
+    }
+    #hot .text p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width : 576px){
+    header{
+        height: 80vh;
+    }
+    header .header-texts h1{
+        font-size: 25px;
+    }
+    header .header-texts p{
+        font-size: 15px;
+    }
+    #menu{
+        height: 1000px;
+    }
+    #menu .coffes{
+        width: 60%;
+        grid-template-columns: 1fr;
+        grid-template-rows:  170px;
+        grid-auto-rows: 170px;
+        gap: 20px;
+    }
+    #menu .text{
+        width: 90%;
+    }
+    #delight{
+        height: 760px;
+        justify-content: flex-start;
+    }
+    #delight .text h1{
+        margin-bottom: 0;
+    }
+    #delight .imgBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    #delight .imgBox img{
+        margin-bottom: 20px;
+    }
+    #delight .imgBox img:first-child{
+        margin-left: 0;
+    }
+    footer .first-row .contact-us{
+        flex-direction: column;
+        width: 400px;
+    }
+    footer .first-row .text{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width : 400px){
+    header nav{
+        padding: 0 40px;
+    }
+    #our-story img{
+        width: 280px;
+        height: 200px;
+    }
+    #sweet .text h1{
+        font-size: 20px;
+    }
+    #sweet .text p{
+        font-size: 14px;
+    }
+    #delight{
+        height: 820px;
+    }
+}
